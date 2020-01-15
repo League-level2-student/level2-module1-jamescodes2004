@@ -1,6 +1,13 @@
 package intro_to_array_lists;
 
+import java.util.ArrayList;
+
 public class GuestBook {
+	public static void main(String[] args) {
+	ArrayList<String> names = new ArrayList<String>();
+	
+	names.add("Arman Dahi");
+	names.add("Graham");
 	// Create a GUI with two buttons. One button reads "Add Name" and the other button reads "View Names". 
 	// When the add name button is clicked, display an input dialog that asks the user to enter a name. Add
 	// that name to an ArrayList. When the "View Names" button is clicked, display a message dialog that displays
@@ -9,4 +16,5 @@ public class GuestBook {
 	// Guest #2: Sandy Summers
 	// Guest #3: Greg Ganders
 	// Guest #4: Donny Doners
+}
 }
